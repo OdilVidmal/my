@@ -1,0 +1,1396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSRF Token -->
+    <meta
+      name="csrf-token"
+      content="IY5HagvoSWtTs08RdMwqoG0uMcduTXhAggwSIxwu"
+    />
+
+    <title>SM48</title>
+    <link
+      rel="icon"
+      href="https://www.sm48.lk/imgs/SM48-logo-sq.png"
+      type="image/x-icon"
+    />
+    <meta
+      name="keywords"
+      content="sm48.lk, e-learning, maths, physics, bio, chemistry, english, online learning, advanced level classes, A/L Classes"
+    />
+    <meta
+      name="description"
+      content="The SM48 Official Management System of SM48"
+    />
+    <meta
+      property="og:title"
+      content="The SM48 Official Management System | SM48.lk"
+    />
+    <meta property="og:url" content="https://montageinstitute.lk/" />
+    <meta
+      property="og:site_name"
+      content="The SM48 Official Management System | SM48.lk"
+    />
+    <meta property="og:image" content="https://sm48.lk/imgs/SM48-logo.png" />
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#0E1413" />
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#0E1413" />
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#0E1413" />
+
+    <!-- Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="dns-prefetch" href="//fonts.bunny.net" />
+    <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet" />
+
+    <!-- Scripts -->
+
+    <link href="https://www.sm48.lk/css/main.css?v=6" rel="stylesheet" />
+  </head>
+  <body class="px-lg-5 py-3 text-light blur">
+    <nav class="navbar navbar-expand-lg navbar-dark mb-0">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://www.sm48.lk/imgs/SM48-logo.png"
+            alt=""
+            width="125"
+            height="62"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse custom-modal-container"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item ms-4 btn btn-primary px-2 py-1 my-auto">
+              <a href="https://www.sm48.lk/myPayments" class="btn btn-primary"
+                ><i class="fa-solid fa-money-bill"></i> My Payments</a
+              >
+            </li>
+            <li
+              id="help-trigger"
+              class="nav-item ms-4 btn-transparent btn px-2 py-1 my-auto"
+            >
+              <a class="nav-link px-4 py-2" href="#">
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 22 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.3334 10.0833C18.3334 8.13841 17.5608 6.27315 16.1855 4.89788C14.8103 3.52262 12.945 2.75 11.0001 2.75C9.05516 2.75 7.1899 3.52262 5.81463 4.89788C4.43936 6.27315 3.66675 8.13841 3.66675 10.0833"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M18.3334 16.5V16.9583C18.3334 17.4446 18.1402 17.9109 17.7964 18.2547C17.4526 18.5985 16.9863 18.7917 16.5 18.7917H13.2917M1.83337 14.1515V12.4318C1.83344 12.023 1.97014 11.6259 2.22177 11.3037C2.4734 10.9815 2.8255 10.7526 3.22212 10.6535L4.81712 10.2538C4.89817 10.2337 4.98275 10.2322 5.06445 10.2496C5.14615 10.2669 5.22281 10.3027 5.28863 10.3541C5.35445 10.4055 5.4077 10.4713 5.44433 10.5463C5.48096 10.6214 5.50001 10.7038 5.50004 10.7873V15.7951C5.50019 15.8788 5.48122 15.9614 5.4446 16.0367C5.40798 16.1119 5.35466 16.1779 5.28871 16.2294C5.22276 16.2809 5.14592 16.3167 5.06404 16.3341C4.98215 16.3514 4.89739 16.3499 4.81621 16.3295L3.22121 15.9308C2.82476 15.8314 2.47286 15.6025 2.22141 15.2803C1.96996 14.9581 1.83338 14.5611 1.83337 14.1524V14.1515ZM20.1667 14.1515V12.4318C20.1666 12.023 20.0299 11.6259 19.7783 11.3037C19.5267 10.9815 19.1746 10.7526 18.778 10.6535L17.183 10.2538C17.1019 10.2337 17.0173 10.2322 16.9356 10.2496C16.8539 10.2669 16.7773 10.3027 16.7114 10.3541C16.6456 10.4055 16.5924 10.4713 16.5558 10.5463C16.5191 10.6214 16.5001 10.7038 16.5 10.7873V15.7951C16.4999 15.8787 16.5189 15.9612 16.5555 16.0364C16.592 16.1116 16.6452 16.1774 16.7111 16.2289C16.7769 16.2805 16.8536 16.3163 16.9354 16.3337C17.0172 16.3512 17.1018 16.3497 17.183 16.3295L18.778 15.9308C19.1746 15.8316 19.5267 15.6027 19.7783 15.2805C20.0299 14.9583 20.1666 14.5612 20.1667 14.1524V14.1515Z"
+                    stroke="white"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M12.375 20.1667H9.625C9.26033 20.1667 8.91059 20.0218 8.65273 19.7639C8.39487 19.5061 8.25 19.1563 8.25 18.7917C8.25 18.427 8.39487 18.0773 8.65273 17.8194C8.91059 17.5615 9.26033 17.4167 9.625 17.4167H12.375C12.7397 17.4167 13.0894 17.5615 13.3473 17.8194C13.6051 18.0773 13.75 18.427 13.75 18.7917C13.75 19.1563 13.6051 19.5061 13.3473 19.7639C13.0894 20.0218 12.7397 20.1667 12.375 20.1667Z"
+                    stroke="white"
+                    stroke-width="1.5"
+                  />
+                </svg>
+                Need Help?</a
+              >
+            </li>
+            <li class="nav-item ms-4">
+              <div class="d-flex profile">
+                <div class="profileUp">
+                  <img
+                    src="https://www.sm48.lk/storage/userImages/default.png"
+                    alt="profile"
+                  />
+                </div>
+                <div class="ms-3">
+                  <p class="fw-bold profileUp">thulina induwara</p>
+                  <p class="text-primary" id="logoutBtn">Logout ></p>
+                  <form
+                    id="logoutForm"
+                    method="POST"
+                    action="https://www.sm48.lk/logout"
+                  >
+                    <input
+                      type="hidden"
+                      name="_token"
+                      value="IY5HagvoSWtTs08RdMwqoG0uMcduTXhAggwSIxwu"
+                      autocomplete="off"
+                    />
+                  </form>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div id="help-modal" class="custom-modal">
+            <div class="tel d-flex align-items-center">
+              <svg
+                class="m-2"
+                width="35"
+                height="37"
+                viewBox="0 0 18 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5.18853 0.827597C4.04453 0.537197 2.84553 0.660397 1.90613 1.1862C0.949127 1.7208 0.278127 2.669 0.245127 3.9373C0.194527 5.9195 0.653227 8.5793 2.47483 11.7011C4.27333 14.7844 6.25883 16.6324 7.90663 17.7302C8.94723 18.4243 10.0967 18.443 11.079 17.9909C12.047 17.5454 12.8324 16.6555 13.2405 15.5522C13.3421 15.2778 13.3829 14.9846 13.3601 14.6929C13.3373 14.4012 13.2515 14.1179 13.1085 13.8626L12.0591 11.9904C11.7365 11.4142 11.2174 10.9733 10.5965 10.7483C9.97566 10.5233 9.29457 10.5292 8.67773 10.765L7.94513 11.0455C7.58983 11.1808 7.26313 11.1181 7.07833 10.9355C6.45683 10.325 6.01243 9.4967 5.81113 8.6035C5.74733 8.3219 5.87713 7.9897 6.18733 7.7554L6.84843 7.256C7.38289 6.8527 7.75185 6.26826 7.88612 5.61231C8.02039 4.95636 7.91074 4.27396 7.57773 3.6931L6.50853 1.8286C6.36688 1.58175 6.17702 1.36592 5.95025 1.19396C5.72348 1.02199 5.46443 0.897398 5.18853 0.827597ZM1.34513 3.967C1.36713 3.1156 1.79833 2.5073 2.44293 2.1465C3.10513 1.7758 4.00933 1.6625 4.91793 1.8935C5.05106 1.92712 5.17607 1.98721 5.28549 2.07017C5.39491 2.15314 5.48651 2.25728 5.55483 2.3764L6.62293 4.2409C6.8227 4.58927 6.88857 4.99855 6.80817 5.39201C6.72778 5.78547 6.50665 6.13611 6.18623 6.3782L5.52513 6.8776C4.95313 7.3088 4.55713 8.048 4.73753 8.8455C4.98173 9.9257 5.52183 10.9498 6.30723 11.7209C6.88143 12.2841 7.69983 12.3171 8.33783 12.0729L9.07043 11.7924C9.44057 11.6507 9.84934 11.647 10.222 11.7819C10.5946 11.9168 10.9063 12.1814 11.0999 12.5272L12.1482 14.4005C12.2802 14.6359 12.3022 14.9175 12.2087 15.1705C11.8897 16.034 11.2902 16.6819 10.6192 16.991C9.96253 17.2935 9.22003 17.2847 8.51713 16.815C7.00903 15.8096 5.14013 14.0859 3.42413 11.1467C1.70703 8.1987 1.30003 5.7413 1.34623 3.967H1.34513ZM12.0173 0.768197C11.8898 0.697305 11.7394 0.679961 11.5991 0.719981C11.4589 0.760002 11.3402 0.854108 11.2693 0.981597C11.1984 1.10909 11.1811 1.25952 11.2211 1.39979C11.2611 1.54007 11.3552 1.6587 11.4827 1.7296L11.9051 1.965C13.2247 2.69804 14.3472 3.73968 15.1766 5.00089C16.0061 6.2621 16.5178 7.70539 16.6681 9.2074L16.7033 9.5539C16.7075 9.62806 16.7266 9.70061 16.7596 9.76718C16.7925 9.83375 16.8386 9.89295 16.8951 9.94122C16.9515 9.98948 17.0172 10.0258 17.0881 10.048C17.159 10.0702 17.2336 10.0778 17.3075 10.0704C17.3814 10.063 17.4531 10.0406 17.5181 10.0047C17.5831 9.96887 17.6402 9.9202 17.686 9.86165C17.7317 9.80311 17.7651 9.73591 17.7841 9.66411C17.8031 9.59231 17.8074 9.5174 17.7967 9.4439L17.7626 9.0985C17.5948 7.41945 17.0229 5.80601 16.0957 4.39613C15.1685 2.98625 13.9138 1.82185 12.4386 1.0025L12.0173 0.768197ZM10.7281 3.7162C10.8033 3.59121 10.925 3.50117 11.0665 3.4659C11.208 3.43063 11.3577 3.453 11.4827 3.5281L11.6191 3.6095C12.507 4.14184 13.2688 4.86066 13.8516 5.71627C14.4345 6.57187 14.8246 7.54384 14.995 8.565L15.0434 8.8587C15.0573 8.93072 15.0566 9.00478 15.0414 9.07653C15.0262 9.14828 14.9968 9.21626 14.9549 9.27648C14.913 9.33669 14.8595 9.38793 14.7976 9.42716C14.7356 9.4664 14.6664 9.49285 14.5941 9.50496C14.5218 9.51706 14.4477 9.51458 14.3764 9.49765C14.305 9.48072 14.2378 9.44969 14.1786 9.40639C14.1194 9.36308 14.0694 9.30838 14.0317 9.24549C13.994 9.1826 13.9692 9.1128 13.9588 9.0402L13.9093 8.7465C13.7654 7.8826 13.4356 7.06026 12.9428 6.33629C12.4499 5.61231 11.8058 5.00397 11.0548 4.5533L10.9184 4.4708C10.8564 4.43368 10.8024 4.38472 10.7593 4.32671C10.7163 4.26869 10.6851 4.20277 10.6675 4.13269C10.6499 4.06262 10.6463 3.98977 10.6569 3.9183C10.6675 3.84684 10.691 3.77816 10.7281 3.7162Z"
+                  fill="white"
+                />
+              </svg>
+              <div class="callTextCon">
+                <p class="callText">Contact Call Center</p>
+                <a href="tel:0771787880" class="text-primary number"
+                  >077 178 78 80</a
+                >
+              </div>
+            </div>
+            <hr />
+            <div class="guide d-flex align-items-center">
+              <svg
+                class="me-3"
+                width="34"
+                height="30"
+                viewBox="0 0 19 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.03344 4.99857C7.94356 4.94193 7.84028 4.91057 7.73433 4.90777C7.62838 4.90496 7.52362 4.93081 7.43092 4.98262C7.33822 5.03443 7.26096 5.11032 7.20716 5.20241C7.15337 5.29449 7.125 5.39942 7.125 5.5063V11.6733C7.12498 11.7815 7.15405 11.8877 7.20911 11.9806C7.26417 12.0735 7.34317 12.1496 7.4377 12.2008C7.53222 12.2521 7.63875 12.2765 7.74595 12.2715C7.85315 12.2666 7.95702 12.2324 8.0465 12.1727L12.7965 9.00055C12.8792 8.94527 12.9468 8.86998 12.9933 8.78156C13.0397 8.69313 13.0634 8.59439 13.0622 8.49434C13.061 8.3943 13.035 8.29615 12.9865 8.20887C12.938 8.12158 12.8686 8.04794 12.7846 7.99466L8.03344 4.99857ZM2.96875 0.117647C2.18139 0.117647 1.42628 0.433054 0.869527 0.994481C0.312778 1.55591 0 2.31737 0 3.11134V13.8887C0 14.6826 0.312778 15.4441 0.869527 16.0055C1.42628 16.5669 2.18139 16.8824 2.96875 16.8824H16.0312C16.8186 16.8824 17.5737 16.5669 18.1305 16.0055C18.6872 15.4441 19 14.6826 19 13.8887V3.11134C19 2.31737 18.6872 1.55591 18.1305 0.994481C17.5737 0.433054 16.8186 0.117647 16.0312 0.117647H2.96875ZM1.1875 3.11134C1.1875 2.63496 1.37517 2.17808 1.70922 1.84123C2.04327 1.50437 2.49633 1.31513 2.96875 1.31513H16.0312C16.5037 1.31513 16.9567 1.50437 17.2908 1.84123C17.6248 2.17808 17.8125 2.63496 17.8125 3.11134V13.8887C17.8125 14.365 17.6248 14.8219 17.2908 15.1588C16.9567 15.4956 16.5037 15.6849 16.0312 15.6849H2.96875C2.49633 15.6849 2.04327 15.4956 1.70922 15.1588C1.37517 14.8219 1.1875 14.365 1.1875 13.8887V3.11134Z"
+                  fill="white"
+                />
+              </svg>
+              <div class="info">
+                <h5 class="mb-0">Complete Guide</h5>
+                <p></p>
+              </div>
+            </div>
+            <div class="row mt-4 mb-3 pb-4">
+              <div class="col-6">
+                <a
+                  class=""
+                  aria-current="page"
+                  href="https://www.sm48.lk/imgs/web site guide book.pdf"
+                  target="_blank"
+                >
+                  <button
+                    class="btn btn-transparent guide-btn w-100"
+                    type="button"
+                  >
+                    View Guide
+                  </button>
+                </a>
+              </div>
+              <div class="col-6">
+                <button
+                  class="btn btn-transparent guide-btn w-100"
+                  type="button"
+                >
+                  watch
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <hr class="mb-5" />
+
+    <div class="card popup profilePopup" id="profilePopup">
+      <button class="btn closeBtn"><i class="fa-solid fa-xmark"></i></button>
+      <div class="row">
+        <div class="col-12">
+          <h1 class="hero-title mb-0">Profile Details</h1>
+
+          <form
+            class="my-3"
+            method="POST"
+            action="https://www.sm48.lk/updateProfilePic"
+            enctype="multipart/form-data"
+          >
+            <input
+              type="hidden"
+              name="_token"
+              value="IY5HagvoSWtTs08RdMwqoG0uMcduTXhAggwSIxwu"
+              autocomplete="off"
+            />
+            <input type="hidden" name="userId" value="1643" />
+            <div class="row">
+              <div class="col-md-4 col-lg-3">
+                <img
+                  src="https://www.sm48.lk/storage/userImages/default.png"
+                  class="profilePic"
+                />
+              </div>
+              <div class="col-md-8 col-lg-9">
+                <h5>Update Profile Picture</h5>
+                <input
+                  type="file"
+                  class="form-control"
+                  id="profileImg"
+                  name="profileImg"
+                  required
+                />
+                <button type="submit" class="btn btn-secondary mt-2">
+                  Update
+                </button>
+                <button type="button" class="btn btn-primary btnDeletePic mt-2">
+                  Remove
+                </button>
+              </div>
+            </div>
+          </form>
+          <form
+            id="deleteImg"
+            method="POST"
+            action="https://www.sm48.lk/deleteProfilePic"
+          >
+            <input
+              type="hidden"
+              name="_token"
+              value="IY5HagvoSWtTs08RdMwqoG0uMcduTXhAggwSIxwu"
+              autocomplete="off"
+            />
+            <input type="hidden" name="userId" value="1643" />
+          </form>
+          <form
+            class="my-3"
+            method="POST"
+            action="https://www.sm48.lk/updateProfile"
+          >
+            <input
+              type="hidden"
+              name="_token"
+              value="IY5HagvoSWtTs08RdMwqoG0uMcduTXhAggwSIxwu"
+              autocomplete="off"
+            />
+            <input type="hidden" name="userId" value="1643" />
+            <div class="row">
+              <div class="my-3 col-lg-6 px-2">
+                <label for="fName" class="form-label">First Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  value="thulina"
+                  id="fName"
+                  name="fName"
+                  autofocus
+                  placeholder=""
+                  required
+                />
+              </div>
+              <div class="my-3 col-lg-6 px-2">
+                <label for="lName" class="form-label">Second Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  value="induwara"
+                  id="lName"
+                  name="lName"
+                  placeholder=""
+                  required
+                />
+              </div>
+              <div class="my-3 col-lg-6 px-2">
+                <label for="wNumber" class="form-label">WhatsApp Number</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  value="0771713703"
+                  id="wNumber"
+                  name="phone"
+                  placeholder=""
+                  required
+                />
+              </div>
+              <div class="my-3 col-lg-6 px-2">
+                <label for="nic" class="form-label">NIC Number</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  value="200635201049"
+                  id="nic"
+                  name="nic"
+                  placeholder=""
+                  required
+                />
+              </div>
+              <div class="my-3 col-lg-2 px-2">
+                <label for="houseNo" class="form-label">House Number</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  value="0772300703"
+                  id="houseNo"
+                  name="houseNo"
+                  placeholder=""
+                />
+              </div>
+              <div class="my-3 col-lg-10 px-2">
+                <label for="streetName" class="form-label">Street Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  value="rajagalathnna"
+                  id="streetName"
+                  name="streetName"
+                  placeholder=""
+                  required
+                />
+              </div>
+              <div class="my-3 col-md-4 px-2">
+                <label for="village" class="form-label">Village</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  value="rajagalathnna"
+                  id="village"
+                  name="village"
+                  placeholder=""
+                  required
+                />
+              </div>
+              <div class="my-3 col-md-4 px-2">
+                <label for="town" class="form-label">Town</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  value="ampara"
+                  id="town"
+                  name="town"
+                  placeholder=""
+                  required
+                />
+              </div>
+              <div class="my-3 col-md-4 px-2">
+                <label for="district" class="form-label">District</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  value="ampara"
+                  id="district"
+                  name="district"
+                  placeholder=""
+                  required
+                />
+              </div>
+
+              <div class="my-3">
+                <button
+                  class="btn btn-secondary text-light fw-bold"
+                  type="submit"
+                >
+                  Update Profile
+                </button>
+              </div>
+            </div>
+          </form>
+          <form
+            class="my-3"
+            method="POST"
+            action="https://www.sm48.lk/updatePassword"
+          >
+            <input
+              type="hidden"
+              name="_token"
+              value="IY5HagvoSWtTs08RdMwqoG0uMcduTXhAggwSIxwu"
+              autocomplete="off"
+            />
+            <input type="hidden" name="userId" value="1643" />
+            <div class="row">
+              <div class="my-3 col-lg-6 px-2">
+                <label for="password" class="form-label">Add a Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  name="password"
+                  placeholder=""
+                  required
+                />
+              </div>
+              <div class="my-3 col-lg-6 px-2">
+                <label for="password-confirm" class="form-label"
+                  >Confirm Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password-confirm"
+                  name="password_confirmation"
+                  placeholder=""
+                  required
+                />
+              </div>
+              <div class="my-3">
+                <button
+                  class="btn btn-secondary text-light fw-bold"
+                  type="submit"
+                >
+                  Update Password
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="m-4 m-lg-5">
+      <div
+        class="d-md-flex flex-row align-items-center justify-content-between ps-lg-5 hero mb-4 mb-md-0"
+      >
+        <h1 class="hero-title mb-5">My Classroom</h1>
+        <a
+          href="https://www.sm48.lk/classRoom"
+          class="d-flex align-items-center btn btn-transparent primary"
+          type="button"
+        >
+          <svg
+            style="margin-right: 15px"
+            width="18"
+            height="18"
+            viewBox="0 0 18 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              x="0.35"
+              y="0.35"
+              width="17.3"
+              height="17.3"
+              rx="2.65"
+              stroke="white"
+              stroke-width="0.7"
+            />
+            <g clip-path="url(#clip0_17_1637)">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M5.28171 6.34042C5.31328 6.2643 5.3667 6.19925 5.43523 6.15349C5.50375 6.10773 5.58431 6.08331 5.66671 6.08333H9.83338C10.2164 6.08333 10.5957 6.15878 10.9495 6.30535C11.3034 6.45193 11.6249 6.66677 11.8958 6.93761C12.1666 7.20844 12.3815 7.52997 12.528 7.88384C12.6746 8.23771 12.75 8.61698 12.75 9C12.75 9.38302 12.6746 9.76229 12.528 10.1162C12.3815 10.47 12.1666 10.7916 11.8958 11.0624C11.6249 11.3332 11.3034 11.5481 10.9495 11.6946C10.5957 11.8412 10.2164 11.9167 9.83338 11.9167H6.08338C5.97287 11.9167 5.86689 11.8728 5.78875 11.7946C5.71061 11.7165 5.66671 11.6105 5.66671 11.5C5.66671 11.3895 5.71061 11.2835 5.78875 11.2054C5.86689 11.1272 5.97287 11.0833 6.08338 11.0833H9.83338C10.3859 11.0833 10.9158 10.8638 11.3065 10.4731C11.6972 10.0824 11.9167 9.55253 11.9167 9C11.9167 8.44747 11.6972 7.91756 11.3065 7.52686C10.9158 7.13616 10.3859 6.91667 9.83338 6.91667H6.67255L7.41963 7.66375C7.49553 7.74233 7.53753 7.84759 7.53658 7.95683C7.53563 8.06608 7.49181 8.17059 7.41456 8.24784C7.3373 8.32509 7.2328 8.36892 7.12355 8.36986C7.0143 8.37081 6.90905 8.32882 6.83046 8.25292L5.37213 6.79458C5.31383 6.73632 5.27411 6.66206 5.25802 6.58122C5.24193 6.50037 5.25017 6.41657 5.28171 6.34042Z"
+                fill="white"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_17_1637">
+                <rect
+                  width="10"
+                  height="10"
+                  fill="white"
+                  transform="translate(4 4)"
+                />
+              </clipPath>
+            </defs>
+          </svg>
+
+          <p>Back to Home</p>
+        </a>
+      </div>
+
+      <div class="row ps-lg-5">
+        <div class="col-12">
+          <div class="tabBtns">
+            <button class="btn tabBtn active" container="liveClasses">
+              <i class="fa-solid fa-video"></i>
+              Live Classes
+              <hr class="orangeLine" />
+            </button>
+            <button class="btn tabBtn" container="recordings">
+              <i class="fa-brands fa-youtube"></i>
+              Recodings
+              <hr class="orangeLine" />
+            </button>
+            <button class="btn tabBtn" container="documents">
+              <i class="fa-solid fa-file"></i>
+              Documents
+              <hr class="orangeLine" />
+            </button>
+          </div>
+          <div class="tabContents first">
+            <div class="tabContent" id="liveClasses">
+              <div class="row contentRow">
+                <div class="col-lg-5"><h5>සාපේක්ෂ ත්වරණය</h5></div>
+                <div class="col-md-8 col-lg-5">
+                  <p>2024-07-26 | 19:30 - 23:30</p>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/viewZoom/505"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Join Now</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="tabContent" id="recordings">
+              <div class="row contentRow">
+                <div class="col-lg-5"><h5>Day 01 :- මූලික සුළු කිරීම්</h5></div>
+                <div class="col-md-8 col-lg-5"><p>2024-02-02</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://us06web.zoom.us/rec/share/60GuTBtaCg5oqC6gVEyCcnF4TvKHezO7cUZI7ICGthcxqPgmsNouy03Uaf8PUG-m.h4EKu9y52Pk3GsEc"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Day 2 :- ත්‍රිකෝණමිතිය 01 / දෛශික</h5>
+                </div>
+                <div class="col-md-8 col-lg-5"><p>2024-02-09</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://us06web.zoom.us/rec/share/59D5UcnIUJP3X6moxqjYv7NNxg44GNsSXelmwOnBc9FgeDV6HvKxATALZK3G5lNF.6L5XLwgT58qhZrc_"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Day 03 - ත්‍රිකෝණමිතිය 01 / දෛශික</h5>
+                </div>
+                <div class="col-md-8 col-lg-5"><p>2024-02-16</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://us06web.zoom.us/rec/share/pzXV3vAsdsOGHWp2c9vLc4Pg0EuGxAK8T2Q7-GWgoiGsgRFFEWMC4cOzz0C37M9z.EeFKhSsvjJEsJ7m1"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Day 03 :- ත්‍රිකෝණමිතිය / දෛශික</h5>
+                </div>
+                <div class="col-md-8 col-lg-5"><p>2024-02-23</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://us06web.zoom.us/rec/share/YXMiIMNSvWnRUPKSDbSuXtJx0NbapI5H-oUwFaD0vylF56XCfKoQlQjqidWMrFJU.Sg-xJIoKH3WTrOT8"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Day 4 :- භින්න භාග / චලිත සමීකරණ</h5>
+                </div>
+                <div class="col-md-8 col-lg-5"><p>2024-03-01</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://us06web.zoom.us/rec/share/oc2lSWOtqCDmm2kbsZI5kT7wCzuBbzoXZvUfJrOcuBfB1rlpGzIXCPwv-p1Qp3vh.VPd_evHE7Ilpw4et"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Day 5:- භින්න භාග / චලිත සමීකරණ</h5>
+                </div>
+                <div class="col-md-8 col-lg-5"><p>2024-03-08</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://us06web.zoom.us/rec/share/6vBbn4x08BvIQ0me28AzIkZU_VSISebLWIFIxAW1ADfPwsbC-jXpl98Csji9pXhJ.zKP_KRn7N5JL5WKL"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>DAY 6:- ලඝු හා ප්‍රවේග කාල ප්‍රස්තාර</h5>
+                </div>
+                <div class="col-md-8 col-lg-5"><p>2024-03-15</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://us06web.zoom.us/rec/share/JdwtEGZ8kiawZHUpSTuX1vd1ZwJgtjnFG4ylX39ATFGGpEUFuPAOwGyjyUxYoope.bgELr5BT6HVBCWU7"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Day 7:- අසමානතා / ප්‍රවේග කාල ප්‍රස්තාර</h5>
+                </div>
+                <div class="col-md-8 col-lg-5"><p>2024-03-26</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://us06web.zoom.us/rec/share/UalCZPUFpS_keLv1_tmnJoVYPODCSXOtM8xCfn7RsvH-oGVjsSjOg6bS3WF4GWxT.PuHcO3dvWKv4FHTl"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5"><h5>Day 8:- ශ්‍රිත</h5></div>
+                <div class="col-md-8 col-lg-5"><p>2024-03-29</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://us06web.zoom.us/rec/share/udNruheOPmYk49qF1Zlc6hBRZOEOkW58eNvmAa7GBaSjpGDgHol-D6wUiqKKJc39.QGpmtxuS-fd3tAar"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>
+                    මිශ්‍ර අභ්‍යාස පන්තිය( DAY 1) - ත්‍රිකෝණමිතිය ආශ්‍රිත ගැටලු
+                    විසඳීම
+                  </h5>
+                </div>
+                <div class="col-md-8 col-lg-5"><p>2024-04-02</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://us06web.zoom.us/rec/share/SdOvp3g_QW_yhSWaROLSnv3FpaIFSESDyk-8YqrPH7Y5AoyEEtdUXkfcjRkMG2fW.8cp1zP4-o1m2zhna"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Day 9:- ශේෂ ප්‍රමේයය හා ඒකතල බල</h5>
+                </div>
+                <div class="col-md-8 col-lg-5"><p>2024-04-06</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://us06web.zoom.us/rec/share/gcUGyTfnNtH_OrTnZ-1A4sf73KI2eDnZdiwoY6xvyLTAMxk1qgFXfgsc3TKF6nZr.-qg1je-C_g_w_Jxl"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Day 10:- ශේෂ ප්‍රමේයය හා ඒකතල බල</h5>
+                </div>
+                <div class="col-md-8 col-lg-5"><p>2024-04-19</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://us06web.zoom.us/rec/share/tlNWtOWIDBi409miSvSKhtDogFHAub4YwxxCgl29QiQK59Vs2UnW1m07DeeWTqk.PU68Cbxkm6r6E3uJ"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5"><h5>Day 11:- මාපාංක සහ ඒකතල බල</h5></div>
+                <div class="col-md-8 col-lg-5"><p>2024-04-26</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://us06web.zoom.us/rec/share/pqQ208VCciDSnMaeFDEcKBeZ4U9SbRZvg4bSjob2h8WR3z6gyVaa7KvQq9LUb6fT.Eqi4IB774nNX7JPw"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5"><h5>Day 12:- මාපාංක සහ ගැටුම්</h5></div>
+                <div class="col-md-8 col-lg-5"><p>2024-05-03</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://us06web.zoom.us/rec/share/tCV3vh3DGVLg1_YJjR417CTvX0J14c8dDg0EaiZO0Hl9KjWH2rY98HkNfZmZr__5.9gx3HGBIWJ2iJsjm"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Day 13:- ත්‍රිකෝණමිතිය හා සන්ධි කළ දඬු ( Part 01 )</h5>
+                </div>
+                <div class="col-md-8 col-lg-5"><p>2024-05-10</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://us06web.zoom.us/rec/share/NFes3pwXbi7EuXzggFn6IpAgxt_xiYqP4PIjmzSnWuDR9GdUl0S8hFC8nCJ3PB-d.NFQpM8kZ8sFi8fs5?startTime=1715507563000"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Day 13:- ත්‍රිකෝණමිතිය හා සන්ධි කළ දඬු ( Part 02 )</h5>
+                </div>
+                <div class="col-md-8 col-lg-5"><p>2024-05-10</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://us06web.zoom.us/rec/share/R21qMKalGrex39zEeMz0rtjGcfTFWkFRF95LUMIPSndxC1KF1Tx01xebTUB5B1_m.ULYrBd6uuH6a4s-R"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Day 14:- ත්‍රිකෝණමිතිය හා සන්ධි කළ දඬු</h5>
+                </div>
+                <div class="col-md-8 col-lg-5"><p>2024-05-17</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://us06web.zoom.us/rec/share/d7ca1PH69Q8GlyCV7VxbgqgCFOAeqP8Q3KA3fACyWJCqxOS0RYCnf0EgT1fSGfDW.LuAwLxLnsYbedy2Q"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5"><h5>DAY 15 :- රාමු සැකිළි</h5></div>
+                <div class="col-md-8 col-lg-5"><p>2024-05-31</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://us06web.zoom.us/rec/share/HkTR4xMZa544rUPbkIaW0iO0m8r703lacr0q2QuxhPOff7SRD6f2JWw9fYkVXL3h.J_WLQ1kw4MRtN-O2"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>DAY 16:-ත්‍රිකෝණමිතිය 02 - කාර්‍ය, ශක්තිය, ක්ෂමතාව</h5>
+                </div>
+                <div class="col-md-8 col-lg-5"><p>2024-07-06</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://us06web.zoom.us/rec/share/FWiIVg0gHL_8FluyLkbQAn0sSwrPAhh77cKnkDbWJc2fxVetRB3QDrqSqgn-ClxB.ahgL3EdMwKq-6Oqs"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5"><h5>DAY 17 :- වර්ගජ සමීකරණ (01)</h5></div>
+                <div class="col-md-8 col-lg-5"><p>2024-06-21</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://us06web.zoom.us/rec/share/I84vnwMV2B3ZJ2PlBy5CAQ1Wj1-hUZnP9O79xzB8SSN6uZTVi4rzlI6KmhS5LWXN.uKJBy3TKTcFeqBrZ"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5"><h5>DAY 17 :- වර්ගජ සමීකරණ (02)</h5></div>
+                <div class="col-md-8 col-lg-5"><p>2024-06-21</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://us06web.zoom.us/rec/share/WcUFJ2jjTHKpAm8L2S-ZtTFD63IMT5NADXwvz_X_eT64p8ucTUvcATMgaceXCG-E.Pwk5kM95S920LUxK"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>මිශ්‍ර අභ්‍යාස පන්තිය (DAY 01)</h5>
+                </div>
+                <div class="col-md-8 col-lg-5"><p>2024-06-25</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://youtu.be/tzeSrJrJeIY"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>DAY 18 :- සීමාව / කාර්යය ශක්තිය ක්ෂමතාවය</h5>
+                </div>
+                <div class="col-md-8 col-lg-5"><p>2024-06-28</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://us06web.zoom.us/rec/share/oOGhQqxI3UrQkElA3BUjQFeMVuE4W3E1Fx_MyOYbtLgICDpwyoCE7l7Cmw6sJU1G.PL8F3xxY1LB_yja_"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5"><h5>DSY 19 :- අවකලනය</h5></div>
+                <div class="col-md-8 col-lg-5"><p>2024-07-05</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://zoom.us/rec/share/t5FRYH8KQmeSUIfk189qUCTltM6TSTjLRYP95TlaIHYzIOx8svK5PfkHCVKlqFqZ.PabMiVWq2VGWeRhy"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>මිශ්‍ර අභ්‍යාස පන්තිය (DAY 02)</h5>
+                </div>
+                <div class="col-md-8 col-lg-5"><p>2024-07-02</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://youtu.be/UcQd5eEUj2A"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>මිශ්‍ර අභ්‍යාස පන්තිය ( Day 3)</h5>
+                </div>
+                <div class="col-md-8 col-lg-5"><p>2024-07-09</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://youtu.be/TsrXbSadHQ4?si=oQZIdZj6g-R_GrbJ"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>DAY 20 :- අවකලනය හා සාපේක්ෂ ප්‍රවේගය</h5>
+                </div>
+                <div class="col-md-8 col-lg-5"><p>2024-07-12</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://zoom.us/rec/share/HdFYIfM9E7z7mwQ7GdeB1q-EmdrljhZHalpWBJ6_9ktxLZB8wRIq5dnOVRCO7pU-.E4iMlr1RYM14HFLt"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>මිශ්‍ර අභ්‍යාස පන්තිය(Day 4)</h5>
+                </div>
+                <div class="col-md-8 col-lg-5"><p>2024-07-16</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://youtu.be/Jc2aBxVlA5o?si=bvbw4SnF7mZc_SAY"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+              <div class="row contentRow">
+                <div class="col-lg-5"><h5>DAY 21 : - අවකලනය</h5></div>
+                <div class="col-md-8 col-lg-5"><p>2024-07-20</p></div>
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://zoom.us/rec/share/2sgc0eRrkWaeP_aSKqWZzN320Fp0ZeM0nJr2n4sL9rVNOdByh3qluZM9Po0eGEHE.JWUbvnrAcz6xOpt5"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Watch Now</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="tabContent" id="documents">
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Combined Maths (Pure) Semester 01</h5>
+                </div>
+
+                <div class="col-md-8 col-lg-5"></div>
+
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/storage/documents/1707674040.pdf"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >View File</a
+                  >
+                </div>
+              </div>
+
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Combined Maths (Applied) Semester 01</h5>
+                </div>
+
+                <div class="col-md-8 col-lg-5"></div>
+
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/storage/documents/1707673947.pdf"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >View File</a
+                  >
+                </div>
+              </div>
+
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Combined Maths Full Work Plan</h5>
+                </div>
+
+                <div class="col-md-8 col-lg-5"></div>
+
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/storage/documents/1708408881.pdf"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >View File</a
+                  >
+                </div>
+              </div>
+
+              <div class="row contentRow">
+                <div class="col-lg-5"><h5>මිශ්‍ර අභ්‍යාස පන්තිය</h5></div>
+
+                <div class="col-md-8 col-lg-5"></div>
+
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/storage/documents/1712048751.pdf"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >View File</a
+                  >
+                </div>
+              </div>
+
+              <div class="row contentRow">
+                <div class="col-lg-5"><h5>ඒකතල බල නිබන්ධනය</h5></div>
+
+                <div class="col-md-8 col-lg-5"></div>
+
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/storage/documents/1712313012.pdf"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >View File</a
+                  >
+                </div>
+              </div>
+
+              <div class="row contentRow">
+                <div class="col-lg-5"><h5>ශේෂ ප්‍රමේයය නිබන්ධනය</h5></div>
+
+                <div class="col-md-8 col-lg-5"></div>
+
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/storage/documents/1712313076.pdf"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >View File</a
+                  >
+                </div>
+              </div>
+
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Combined Maths Semester 02 - May (Pure)</h5>
+                </div>
+
+                <div class="col-md-8 col-lg-5"></div>
+
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/storage/documents/1714884827.pdf"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >View File</a
+                  >
+                </div>
+              </div>
+
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Combined Maths Semester 02 - (Applied)</h5>
+                </div>
+
+                <div class="col-md-8 col-lg-5"></div>
+
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/storage/documents/1715148430.pdf"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >View File</a
+                  >
+                </div>
+              </div>
+
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Combined Maths - Model Paper 01</h5>
+                </div>
+
+                <div class="col-md-8 col-lg-5"></div>
+
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/storage/documents/1715486997.pdf"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >View File</a
+                  >
+                </div>
+              </div>
+
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>COmbined Maths - Model Paper 02</h5>
+                </div>
+
+                <div class="col-md-8 col-lg-5"></div>
+
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/storage/documents/1716182227.pdf"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >View File</a
+                  >
+                </div>
+              </div>
+
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Combined Maths - Model Paper 03</h5>
+                </div>
+
+                <div class="col-md-8 col-lg-5"></div>
+
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/storage/documents/1716962258.pdf"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >View File</a
+                  >
+                </div>
+              </div>
+
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Combined Maths - Model Paper 04</h5>
+                </div>
+
+                <div class="col-md-8 col-lg-5"></div>
+
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/storage/documents/1717329882.pdf"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >View File</a
+                  >
+                </div>
+              </div>
+
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Combined Maths - Model Paper 05</h5>
+                </div>
+
+                <div class="col-md-8 col-lg-5"></div>
+
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/storage/documents/1717955323.pdf"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >View File</a
+                  >
+                </div>
+              </div>
+
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Combined Maths - Model Paper 06</h5>
+                </div>
+
+                <div class="col-md-8 col-lg-5"></div>
+
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/storage/documents/1718509196.pdf"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >View File</a
+                  >
+                </div>
+              </div>
+
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Combined Maths - Model Paper 06</h5>
+                </div>
+
+                <div class="col-md-8 col-lg-5"></div>
+
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/storage/documents/1718509198.pdf"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >View File</a
+                  >
+                </div>
+              </div>
+
+              <div class="row contentRow">
+                <div class="col-lg-5"><h5>වර්ගජ සමීකරණ</h5></div>
+
+                <div class="col-md-8 col-lg-5"></div>
+
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/storage/documents/1718888541.pdf"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >View File</a
+                  >
+                </div>
+              </div>
+
+              <div class="row contentRow">
+                <div class="col-lg-5"><h5>ඛණ්ඩාංක ජ්‍යාමිතිය</h5></div>
+
+                <div class="col-md-8 col-lg-5"></div>
+
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/storage/documents/1718888604.pdf"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >View File</a
+                  >
+                </div>
+              </div>
+
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Combined Maths - Model Paper 07</h5>
+                </div>
+
+                <div class="col-md-8 col-lg-5"></div>
+
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/storage/documents/1719114443.pdf"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >View File</a
+                  >
+                </div>
+              </div>
+
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Combined Maths - Model Paper 08</h5>
+                </div>
+
+                <div class="col-md-8 col-lg-5"></div>
+
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/storage/documents/1719769653.pdf"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >View File</a
+                  >
+                </div>
+              </div>
+
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Combined Maths 2nd Semester (Pure)</h5>
+                </div>
+
+                <div class="col-md-8 col-lg-5"></div>
+
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/storage/documents/1719906685.pdf"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >View File</a
+                  >
+                </div>
+              </div>
+
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Combined Maths- Model Paper 09</h5>
+                </div>
+
+                <div class="col-md-8 col-lg-5"></div>
+
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/storage/documents/1720323438.pdf"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >View File</a
+                  >
+                </div>
+              </div>
+
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Combined Maths - Model Paper 10</h5>
+                </div>
+
+                <div class="col-md-8 col-lg-5"></div>
+
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/storage/documents/1721038456.pdf"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >View File</a
+                  >
+                </div>
+              </div>
+
+              <div class="row contentRow">
+                <div class="col-lg-5">
+                  <h5>Combined Maths - Model Paper 11</h5>
+                </div>
+
+                <div class="col-md-8 col-lg-5"></div>
+
+                <div class="col-md-4 col-lg-2">
+                  <a
+                    href="https://www.sm48.lk/storage/documents/1721656827.pdf"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >View File</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+      $("#profilePopup").hide();
+
+      $("#logoutBtn").click(function () {
+        $("#logoutForm").submit();
+      });
+
+      $(document).ready(function () {
+        $("#help-trigger").click(function () {
+          $("#help-modal").addClass("active");
+          $("#help-trigger").addClass("active");
+        });
+      });
+
+      $(document).mouseup(function (e) {
+        var container = $("#help-modal");
+        if (!container.is(e.target) && container.has(e.target).length === 0) {
+          $("#help-modal").removeClass("active");
+          $("#help-trigger").removeClass("active");
+        }
+
+        var container2 = $("#profilePopup");
+        if (!container2.is(e.target) && container2.has(e.target).length === 0) {
+          $("#profilePopup").hide();
+        }
+      });
+
+      $(".btnDeletePic").click(function () {
+        if (confirm("Are you sure to delete image?")) {
+          $("#deleteImg").submit();
+        }
+      });
+
+      $(".profileUp").click(function () {
+        $("#profilePopup").show();
+      });
+
+      $(".mainAlert")
+        .fadeTo(3500, 2000)
+        .slideUp(2000, function () {
+          $(".mainAlert").slideUp(2000);
+        });
+
+      $(".closeBtn").click(function () {
+        $("#profilePopup").hide();
+      });
+    </script>
+
+    <script>
+      $(".tabContent").hide();
+      $("#liveClasses").show();
+      $(".tabBtn").click(function () {
+        $(".tabBtn").removeClass("active");
+        $(this).addClass("active");
+        var container = $(this).attr("container");
+        if (container == "liveClasses") {
+          $(".tabContents").addClass("first");
+        } else {
+          $(".tabContents").removeClass("first");
+        }
+        $(".tabContent").hide();
+        $("#" + container).show();
+      });
+    </script>
+  </body>
+</html>
+o]
